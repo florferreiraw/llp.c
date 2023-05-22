@@ -8,7 +8,7 @@ int numerosecreto = 42;
 int chute;
   
 for(int i = 1; i<=3; i++) {
-  printf("Qual é o seu chute?");
+  printf("Qual é o seu chute?\n");
   scanf("%d", &chute);
   printf("Você chutou o número %d\n", chute);
   
